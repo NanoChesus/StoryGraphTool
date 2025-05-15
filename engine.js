@@ -8,6 +8,8 @@ class Engine {
 
         this.firstSceneClass = firstSceneClass;
         this.storyDataUrl = storyDataUrl;
+        this.inventory = new Set(); 
+
 
         this.header = document.body.appendChild(document.createElement("h1"));
         this.output = document.body.appendChild(document.createElement("div"));
@@ -22,6 +24,7 @@ class Engine {
             }
         );
     }
+    
 
     gotoScene(sceneClass, data) {
         this.scene = new sceneClass(this);
@@ -49,7 +52,24 @@ class Engine {
         div.innerHTML = msg;
         this.output.appendChild(div);
     }
+
+    restartGame() {
+        // Clear the dynamically created output and actions containers
+        this.output.innerHTML = "";
+        this.actionsContainer.innerHTML = "";
+
+        // Clear inventory or reset other game state
+        if (this.inventory) {
+            this.inventory.clear();
+        }
+
+        // Restart the story
+        this.gotoScene(Start);
+    }
+
 }
+
+
 
 class Scene {
     constructor(engine) {

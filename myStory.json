@@ -1,58 +1,151 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Night Walk",
+    "Credits": "Created by Jesus Barrios (jbarrio7@ucsc.edu)",
+    "InitialLocation": "School1-1",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "School1-1": {
+            "Body": "“Sitting with my chin resting on my fist the sun scraped across the sky dragging a blood red veil across the cold star splattered sky. as I saw the night creep over the town, knowing I’d have to trek through 3 miles of dirt road and lakeside to reach my grandmas house” ",
             "Choices": [
                 {
-                    "Text": "South",
-                    "Target": "Porter"
-                }
-            ]
-        },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
-            "Choices": [
-                {
-                    "Text": "North",
-                    "Target": "Kresge"
+                    "Text": "look towards the board",
+                    "Target": "School1-2"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Text": "Debug",
+                    "Target": "School1-1"
+                    
                 }
-            ]
+            ],
+            "items": []
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "School1-2": {
+            "Body": "I usually wouldn't stay this late for a tutor session or anything else, the forest was known to be dangerous. Owners of unwanted pets would let their dogs loose in the woods knowing it’ll consume their pet like this forest eventually does to everything. Mines and oil drills all succumb to the power of nature. No operation here lasts long; the roots grow so thick they strangle the oil rigs pipes. In the middle of the forest my grandparents lifted a home wall by wall. A small home, a 3 bathroom 2 bathroom home, it's simple, it's nice. You’d think it was part of the forest with all the vines and flowers sprouting from the boards and trellis along the wall of the house. \n Needless to say the forest is not a place to be at night, alone. The real scary thought is not being alone. ",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Porter"
+                    "Text": "Spaceout",
+                    "Target": "School1-3"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Oakes"
+                    "Text": "Scribble",
+                    "Target": "School1-3"
                 }
-            ]
+            ],
+            "items": []
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "School1-3": {
+            "Body": "The tutor stands in front of the class and dismisses us with a vow of ‘good luck’, our exam is tomorrow. We stand and thank him, bow our heads and everyone leaves sleepy eyed.\n You check your backpack and notice your sketchbook is missing, but night is creeping over the town",
             "Choices": [
                 {
-                    "Text": "North",
-                    "Target": "Rachel Carson"
+                    "Text": "Go look for Sketchbook",
+                    "Target": "Artroom3-1"
                 },
                 {
-                    "Text": "South",
-                    "Target": "Beyond"
+                    "Text": "Head home",
+                    "Target": "Rethink5-1"
+                }
+            ],
+            "items": []
+        },
+        "Rethink5-1": {
+            "Body": "I really need my sketch book, I should go get it.",
+            "Choices": [
+                {
+                    "Text": "Go look for sketch book",
+                    "Target": "Artroom3-1"
+                }
+            ],
+            "items": []
+        },
+        "Artroom3-1": {
+            "Body": "I walk through the dimly lit hallway that's always short of a light bulb change. I make my way into the back of the classroom where my desk is. It's a small school so we each have an assigned desk. I reach in the cubby and find my note-book. As I turn to walk out I hear a door creep open",
+            "Choices": [
+
+                {
+                    "Text": "Look in door",
+                    "Target": "Closet4-1"
+                },
+                {
+                    "Text": "Hell no! I'm going home!",
+                    "Target": "The walk2-2"
                 }
             ]
+        
         },
-        "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+        "The walk2-1": {
+            "Body": "Its getting late and you head home",
+            "Choices": [
+                {
+                    "Text": "Keep walking",
+                    "Target": "The walk2-2"
+                }
+            ],
+            "items": []
+        },
+        "The walk2-2": {
+            "Body": "The edge of the forest weirdly enough felt warmer than the cold floors of the town, the grass squished under my shoes as I started my 5k journey. I took my ear buds out as the paranoia of being alone in a strange place makes you do. Anything could be in those woods, coyotes, wolves, an axe murder. No I was being stupid, I was just scaring myself. I'm not sure if it's useful to scare yourself into thinking danger is near when the true danger is unknown. Was it better to run in fear of an invisible creature then keep your ego whole and be eaten by the creature. The wind crashed into the trees shaking the leafs",
+            "Choices": [
+                {
+                    "Text": "Keep walking",
+                    "Target": "The walk2-3"
+                }
+            ],
+            "items": []
+        },
+        "The walk2-3": {
+            "Body": "It's weird how the rhythmic rustling of the trees, the crunch of every foot step on the rocky path all come down into the background and the forest's shadows fill with eyes looking at your back. I can’t look behind me that would acknowledge there being something behind me. The paranoia is getting to me, my vision begins wobbling as my head feels lighter. In Between footsteps I hear a twig snap. I pick up my pace, surely nothing else can snap a twig on the floor. It must be something, something with weight, something looking at me illuminated by the moon from the shadows. I feel the hairs on the back of my neck stand. I continue at a labored walk still refusing to lose my head over a twig.",
+            "Choices": [
+                {
+                    "Text": "Stay calm, Stay Calm!",
+                    "Target": "The walk2-4"
+                }
+            ],
+            "items": []
+        },
+        "The walk2-4": {
+            "Body": "As I speed ahead I hear another snap. This time it's real something is chasing me. I run, reaching a sprint as I hear a thumping speed up after me. It gets closer, I can hear it clearly now a pair of heavy hooves beating on the ground with a second pair of limbs betting against the ground with a softness snapping the tree branches as it chases me. I swing my arms with an open palm as if chopping the air my backpack swinging out of sync with my body, I drop it, speeding off with efficiently my chest tightens and gasps for air. My lungs burn but it doesn't hurt the adrenalin stopping the pain. ",
+            "Choices": [
+                {
+                    "Text": "Run as fast you can, it's after me ",
+                    "Target": "The walk2-5"
+                }
+            ],
+            "items": []
+        },
+        "The walk2-5": {
+            "Body": "As the thumping passes over me, I hear it stop in front of me. I stop and watch, in front of me the path is open with the full moon shining over the split of the trees. I see its antlers peek out over the treetops, its human hands bare and rough grip the tree tops and move it. I hear it screech like an elk filling the forest with its sound.  Paralyzed I fall, as the monster approaches rumbling the earth.",
+            "Choices": [
+                {
+                    "Text": "Close your eyes, it'll be quick",
+                    "Target": "Death1-1"
+                },
+                {
+                    "Text": "close your eyes and prey",
+                    "Target": "Awake1-1"
+                }
+            ],
+            "items": []
+        },
+        "Death1-1":{
+            "Body": "The monster eats you leaving no trace of you ever being there",
+            "Choices":[]
+        },
+        "Awake1-1":{
+            "Body": "as the monster comes to eat you you see a flash of light and hear a crack. you awake in your bed. you check your back pack and the mask is cracked ",
+            "Choices":[]
         }
+    },
+    "specialLocation":{
+        "Closet4-1": {
+            "Body": "I've never noticed this room before, was it ever here before?  Inside it's a small storage room with multiple layers of dust over the paint cans creating a web. In the middle was a wooden box.",
+            "Choices": [
+                {
+                    "Text": "Walk home",
+                    "Target": "The walk2-1"
+                }
+            ],
+            "items": []
+        }
+
     }
+   
 }
